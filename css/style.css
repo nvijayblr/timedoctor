@@ -1,0 +1,132 @@
+body {
+	font-family: arial;
+	font-size: 14px;
+	color: #3f3f3f;
+	font-weight: 300;
+}
+.clearfix:after {
+	content: " ";
+	visibility: hidden;
+	display: block;
+	height: 0;
+	clear: both;
+}
+h1 {
+	font-size: 24px;
+	font-weight: 300;
+}
+.page {
+	width: 300px;
+	padding: 10px;
+	background-color: #fff;
+	border: 1px solid #ccc;
+}
+.page .logo {
+	margin-bottom: 20px;
+}
+.page .login {
+	text-align: center;
+}
+.btn {
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+	transition: all 0.5s ease;
+}
+.btn:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+	transition: all 0.5s ease;
+}
+.btn:active, .btn:focus {
+	position:relative;
+	top: 1px;
+	outline: 0;
+}
+.red {
+	color: #ee1e1d;
+}
+.black {
+	color: #123c6a;
+}
+#users h4 {
+	margin: 0;
+	padding: 0;
+}
+#users ul, #users ul li {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+a, a:link {
+	color: #505050;
+	transition: all 0.5s ease;
+	font-weight: 500;
+	text-decoration: none;
+}
+a:hover {
+	color: #adadad;
+	transition: all 0.5s ease;
+	font-weight: 500;
+}
+#users li .userLink, #users li .userLink:link, .back {
+	border-bottom: 1px solid #CCC;
+	padding: 15px 0;
+	display: block;
+	text-decoration: none;
+	color: #505050;
+	transition: all 0.5s ease;
+	font-weight: 500;
+	font-size: 15px;
+	cursor: pointer;
+}
+#users li .userLink:hover, .back:hover {
+	color: #adadad;
+	transition: all 0.5s ease;
+
+}
+#users li .status {
+	width: 10px;
+	height: 10px;
+	border: 1px solid #1ed400;
+	background-color: #24ff00;
+	display: inline-block;
+	border-radius: 10px;
+	margin-left: 10px;
+	position: relative;
+	top: 2px;
+}
+#users li .status.active {
+	border: 1px solid #1ed400;
+	background-color: #24ff00;
+}
+#users li .status.inactive {
+	border: 1px solid #d40000;
+	background-color: #ff0000;
+}
+#users li .email {
+	font-size: 12px;
+	font-style: italic;
+	padding-top: 5px;
+	display: inline-block;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.loading {
+	text-align: center;
+	color: #adadad;
+}
